@@ -20,3 +20,6 @@ const mele = [
 
 const diametroMaggiore = mele.filter(mela => mela.diametro >= 7) 
 console.log(diametroMaggiore);
+
+const diametroMinore = mele.filter(mela => mela.diametro < 7)
+console.log(diametroMinore);
